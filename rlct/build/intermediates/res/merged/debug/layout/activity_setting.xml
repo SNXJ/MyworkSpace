@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+ <RelativeLayout
+        android:id="@+id/rl_title_setting"
+        android:layout_width="fill_parent"
+        android:background="@color/title_blue"
+        android:layout_height="@dimen/base50dp" >
+
+        <ImageButton
+            android:id="@+id/ib_setting_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base15dp"
+            android:background="@drawable/left_return" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/tv_share_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/setting"
+             />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_questions"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base55dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/base50dp" >
+
+       <!--  <ImageView
+            android:id="@+id/ic_my_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/my_data"
+            android:scaleType="fitXY" /> -->
+<!--  android:layout_toRightOf="@id/ic_my_data" -->
+
+        <TextView
+            android:id="@+id/tv_questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base15dp"
+            android:text="常见问题"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base30dp"
+            android:background="@drawable/arrow"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/base1dp"
+        android:background="#364555" />
+
+    <RelativeLayout
+        android:id="@+id/rl_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base55dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/base50dp" >
+
+      <!--   <ImageView
+            android:id="@+id/ic_account_security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/account_security"
+            android:scaleType="fitXY" />
+ -->
+        <TextView
+            android:id="@+id/tv_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base15dp"
+            android:text="意见反馈"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base30dp"
+            android:background="@drawable/arrow"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/base1dp"
+        android:background="#364555" />
+
+    <RelativeLayout
+        android:id="@+id/rl_check_version"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base55dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/base50dp" >
+
+     <!--    <ImageView
+            android:id="@+id/ic_deal_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/deal_record"
+            android:scaleType="fitXY" /> -->
+
+        <TextView
+            android:id="@+id/tv_check_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base15dp"
+            android:text="检查版本更新"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base30dp"
+            android:background="@drawable/arrow"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/base1dp"
+        android:background="#364555" />
+
+</LinearLayout><!-- From: file:/E:/ronglian/rlct/rlct/res/layout/activity_setting.xml -->

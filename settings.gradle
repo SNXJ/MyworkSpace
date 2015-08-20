@@ -1,0 +1,1 @@
+include ':javaapk.com-AndBase', ':rlct', ':appcompat_v7'

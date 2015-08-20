@@ -1,0 +1,180 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <RelativeLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <include
+                android:background="#ffffff"
+                android:id="@+id/home_pager_title"
+                layout="@layout/top" />
+
+            
+      <com.ab.view.sliding.AbSlidingPlayView
+        android:id="@+id/mAbSlidingPlayView"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/base170dp" 
+        android:layout_below="@+id/home_pager_title">
+    </com.ab.view.sliding.AbSlidingPlayView>
+            
+            
+           <!--  <android.support.v4.view.ViewPager
+                android:id="@+id/shuffling_pager"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_below="@+id/home_pager_title" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/shuffling_pager"
+                android:background="#77000000"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="5dip" >
+
+                <LinearLayout
+                    android:id="@+id/ll_point_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </LinearLayout> -->
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/base140dp"
+                android:layout_below="@+id/mAbSlidingPlayView"
+                android:background="#ffffff" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_loan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/base35dp"
+                    android:layout_marginTop="@dimen/base21dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_loan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/loan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/iv_loan"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/base15dp"
+                        android:text="贷款"
+                        android:textColor="#666666"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_repayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/base40dp"
+                    android:layout_marginTop="@dimen/base21dp"
+                    android:layout_toRightOf="@+id/rl_loan"
+                    android:background="#ffffff" >
+
+                    <ImageView
+                        android:id="@+id/iv_repayment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/repayment" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/iv_repayment"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/base15dp"
+                        android:text="还款"
+                        android:textColor="#666666"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/base40dp"
+                    android:layout_marginTop="@dimen/base21dp"
+                    android:layout_toRightOf="@+id/rl_repayment"
+                    android:background="#ffffff" >
+
+                    <ImageView
+                        android:id="@+id/iv_share"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/share" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/iv_share"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/base15dp"
+                        android:text="分享"
+                        android:textColor="#666666"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/base10dp"
+                android:layout_below="@+id/rl"
+                android:background="#efeff4" />
+
+            <RelativeLayout
+                android:id="@+id/rl_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line"
+                android:background="#ffffff" >
+
+                <include
+                    android:id="@+id/include_loan_details"
+                    layout="@layout/loan_details" />
+            </RelativeLayout>
+
+            <View
+                 android:layout_marginTop="@dimen/base30dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/base10dp"
+                android:layout_below="@+id/rl_details"
+                android:background="#efeff4" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="@dimen/base315dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#303D4D" >
+        
+        <include 
+            layout="@layout/home_menu_left"
+            />
+        </FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>

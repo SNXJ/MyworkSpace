@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/base50dp"
+    android:id="@+id/rl_title"
+     >
+
+    <ImageButton
+        android:id="@+id/ib_top_left"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="@dimen/base15dp"
+        android:background="@drawable/setting" />
+    <TextView 
+     	
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/tv_top"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333" 
+        android:text="融联创投"
+        />
+    <ImageButton
+        android:id="@+id/ib_top_right"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/base15dp"
+        android:background="@drawable/phone" />
+</RelativeLayout>

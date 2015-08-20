@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >  
+
+	<include 
+        android:background="@color/title_blue"
+        layout="@layout/top"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/base40dp"
+        android:paddingRight="@dimen/base40dp"
+        android:paddingTop="@dimen/base40dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_loan_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/name"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/et_loan_name"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@+id/ic_loan_name"
+                android:background="@android:color/white"
+                android:hint="@string/loan_name"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/iphone"
+                android:scaleType="fitXY" />
+
+            <EditText
+                 android:inputType="number"
+                android:id="@+id/et_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_phone"
+               android:background="@android:color/white"
+                android:hint="@string/phone_number"
+                android:textColor="#999999"
+                android:maxLength="11"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_id_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_id_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/id_card"
+                android:scaleType="fitXY" />
+
+            <EditText
+                 android:inputType="number"
+                android:id="@+id/et_id_card"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_id_card"
+               android:background="@android:color/white"
+                android:hint="@string/id_card"
+                android:textColor="#999999"
+                android:maxLength="18"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_loan_type"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_loan_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/loan_type"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/et_loan_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_loan_type"
+               android:background="@android:color/white"
+                android:hint="@string/loan_type"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/arrow"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_loan_cycle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_loan_cycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/loan_cycle"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/et_loan_cycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_loan_cycle"
+               android:background="@android:color/white"
+                android:hint="@string/loan_cycle"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/arrow"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_loan_money"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_loan_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/loan_money"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/et_loan_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_loan_money"
+                android:background="@android:color/white"
+                android:text="@string/loan_money"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+              <TextView
+                android:id="@+id/et_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/et_loan_money"
+                android:text="¥ 20万"
+                android:textColor="@color/red"
+                android:textSize="15sp" />
+            
+            
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="20"
+            android:progressDrawable="@drawable/bg_bar"
+            android:thumb="@drawable/progress_button" />
+
+        <ImageButton
+            android:id="@+id/ib_loan_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/confirm" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/ronglian/rlct/rlct/res/layout/activity_loan.xml -->

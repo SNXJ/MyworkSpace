@@ -1,0 +1,147 @@
+
+-keep class com.ucgcn.rlct.ui.mian.MainActivitys { <init>(); }
+com/ucgcn/rlct/ui/activitys/RegistActivity$TimeCount.class
+android/support/v4/app/FragmentManagerImpl$5.class
+android/support/v7/app/ActionBar$OnNavigationListener.class
+com/ab/view/carousel/CarouselAdapter.class
+android/support/v4/util/LogWriter.class
+com/ucgcn/rlct/ui/activitys/BaseActivity.class
+android/support/v4/util/ContainerHelpers.class
+-keep class com.ucgcn.rlct.ui.activitys.LoanActivity { <init>(); }
+android/support/v4/app/LoaderManager.class
+com/ucgcn/rlct/ui/mian/MainContentFragment.class
+android/support/v7/app/ActionBar$TabListener.class
+android/support/v4/app/FragmentActivity$2.class
+android/support/v4/view/GravityCompat.class
+com/ucgcn/rlct/ui/activitys/RepaymentHistoryActivity$ViewHolder.class
+android/support/v4/app/Fragment$SavedState.class
+android/support/v4/app/FragmentManager.class
+android/support/v4/app/BackStackState.class
+android/support/v7/internal/widget/AdapterViewCompat.class
+android/support/v4/app/NoSaveStateFrameLayout.class
+android/support/v4/app/FragmentTabHost.class
+-keep class com.ucgcn.rlct.ui.activitys.RepaymentActivity { <init>(); }
+android/support/v7/app/AppCompatActivity.class
+com/ucgcn/rlct/domain/UserInfo.class
+-keep public class * extends java.lang.annotation.Annotation {
+com/ucgcn/rlct/ui/activitys/RepaymentActivity.class
+android/support/v4/app/FragmentManager$OnBackStackChangedListener.class
+com/google/gson/annotations/Expose.class
+com/ucgcn/rlct/utils/MatchUtil.class
+com/google/gson/reflect/TypeToken.class
+android/support/v7/internal/view/menu/MenuItemImpl.class
+com/ab/view/titlebar/AbBottomBar.class
+com/ab/util/AbViewUtil.class
+android/support/v7/widget/LinearLayoutCompat$DividerMode.class
+android/support/v4/app/Fragment.class
+-keep class com.ucgcn.rlct.ui.activitys.LoginActivity { <init>(); }
+android/support/v4/app/FragmentActivity.class
+android/support/v7/view/ActionMode.class
+com/ucgcn/rlct/ui/activitys/LoanActivity$2.class
+android/support/v4/app/FragmentManagerImpl$1.class
+-keep class com.ucgcn.rlct.ui.activitys.RegistActivity { <init>(); }
+-keep class com.ucgcn.rlct.ui.activitys.ShareActivity { <init>(); }
+com/ab/view/ioc/AbIocEventListener.class
+android/support/v4/widget/ResourceCursorAdapter.class
+com/ab/activity/AbActivity.class
+android/support/v7/app/ActionBar$LayoutParams.class
+com/ucgcn/rlct/ui/activitys/RepaymentHistoryActivity.class
+android/support/v7/view/ActionMode$Callback.class
+android/support/v7/app/ActionBar$Tab.class
+android/support/v4/app/NotificationCompat$Builder.class
+-keep public class * extends android.app.backup.BackupAgent {
+com/ucgcn/rlct/ui/activitys/ShareActivity$2.class
+-keep class com.ucgcn.rlct.ui.activitys.RepaymentHistoryActivity { <init>(); }
+android/support/v4/widget/SlidingPaneLayout.class
+com/ucgcn/rlct/ui/mian/MainMenuFragment.class
+com/ucgcn/rlct/ui/activitys/MyBankCardActivity$1.class
+com/ucgcn/rlct/ui/activitys/LoginActivity.class
+android/support/v4/widget/CursorAdapter.class
+android/support/v4/widget/SimpleCursorAdapter.class
+com/ucgcn/rlct/ui/activitys/RepaymentHistoryActivity$1.class
+com/ucgcn/rlct/ui/activitys/LoanActivity.class
+com/google/gson/annotations/SerializedName.class
+com/ucgcn/rlct/ui/mian/MainActivitys.class
+android/support/v13/app/FragmentTabHost.class
+com/ucgcn/rlct/ui/activitys/MyBankCardActivity.class
+android/support/v4/util/ArrayMap.class
+com/ab/view/slidingmenu/SlidingMenu.class
+}
+com/ucgcn/rlct/ui/activitys/RepaymentHistoryActivity$RepaymentHistoryAdapter.class
+com/ab/util/AbToastUtil.class
+com/ucgcn/rlct/domain/MyBankCard.class
+com/ucgcn/rlct/ui/activitys/AccountInfoActivity.class
+android/support/v4/app/Fragment$1.class
+com/ab/view/sliding/AbSlidingPlayView.class
+com/ab/db/orm/annotation/Table.class
+com/google/gson/JsonNull.class
+android/support/v4/view/MenuCompat.class
+com/google/gson/annotations/Until.class
+com/ucgcn/rlct/ui/activitys/RegistActivity.class
+android/support/v4/util/SimpleArrayMap.class
+android/support/v7/appcompat/R.class
+android/support/v4/view/ViewCompat.class
+android/support/v4/app/FragmentManagerImpl.class
+    *;
+com/ucgcn/rlct/ui/activitys/RepaymentActivity$1.class
+android/support/v7/app/ActionBar$DisplayOptions.class
+android/support/v4/app/LoaderManagerImpl.class
+-keep class com.ucgcn.rlct.ui.activitys.MyBankCardActivity { <init>(); }
+-keep class com.ucgcn.rlct.ui.activitys.BindBankActivity { <init>(); }
+android/support/v4/util/DebugUtils.class
+android/support/v4/app/FragmentManagerImpl$4.class
+com/ucgcn/rlct/ui/mian/MainActivitys$1.class
+android/support/v4/app/FragmentActivity$FragmentTag.class
+android/support/v7/app/ActionBarActivity.class
+com/ab/view/ioc/AbIocView.class
+android/support/v4/app/FragmentActivity$1.class
+android/support/v4/app/FragmentContainer.class
+com/ab/view/pullview/AbViewInfo.class
+com/ucgcn/rlct/ui/activitys/AccountInfoActivity$1.class
+android/support/v7/appcompat/R$styleable.class
+android/support/v4/app/FragmentTransaction.class
+-keep class com.ucgcn.rlct.ui.activitys.AccountInfoActivity { <init>(); }
+-keep class null {
+com/ucgcn/rlct/ui/mian/MainActivitys$2.class
+com/ucgcn/rlct/ui/activitys/LoginActivity$1.class
+com/ucgcn/rlct/ui/activitys/BindBankActivity.class
+android/support/v7/widget/LinearLayoutCompat.class
+android/support/v4/app/FragmentManagerImpl$3.class
+com/ucgcn/rlct/ui/activitys/RegistActivity$1.class
+android/support/v7/internal/widget/TintTypedArray.class
+android/support/v4/app/FragmentState.class
+com/ucgcn/rlct/ui/activitys/LoginActivity$2.class
+android/support/v7/app/ActionBar.class
+android/support/v4/app/Fragment$InstantiationException.class
+com/ucgcn/rlct/ui/activitys/LoanActivity$1.class
+com/ucgcn/rlct/ui/activitys/RepaymentActivity$2.class
+com/ab/view/titlebar/AbTitleBar$2.class
+com/ab/db/orm/annotation/Relations.class
+com/ab/db/orm/annotation/Id.class
+-keep class com.ucgcn.rlct.ui.activitys.SettingActivity { <init>(); }
+com/ucgcn/rlct/ui/activitys/ShareActivity$1.class
+com/ab/util/AbStrUtil.class
+android/support/v4/app/FragmentManager$BackStackEntry.class
+com/ab/view/titlebar/AbTitleBar$1.class
+android/support/v4/app/SuperNotCalledException.class
+com/ab/view/titlebar/AbBottomBar$1.class
+android/support/v4/app/ActivityCompatHoneycomb.class
+com/ucgcn/rlct/ui/activitys/SettingActivity.class
+    void attachBaseContext(android.content.Context);
+android/support/v4/app/FragmentManagerState.class
+android/support/v7/widget/LinearLayoutCompat$LayoutParams.class
+com/ucgcn/rlct/domain/RepaymentHistory.class
+android/support/v4/app/FragmentActivity$NonConfigurationInstances.class
+android/support/v4/app/BackStackRecord.class
+android/support/v7/widget/ActionMenuView$LayoutParams.class
+android/support/v7/internal/widget/ViewUtils.class
+android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
+com/ucgcn/rlct/ui/activitys/ShareActivity.class
+com/ab/view/ioc/AbIocSelect.class
+android/support/v7/app/ActionBar$OnMenuVisibilityListener.class
+com/ab/view/titlebar/AbTitleBar.class
+com/ab/db/orm/annotation/Column.class
+android/support/v4/app/FragmentManagerImpl$2.class
+    <init>();
+android/support/v7/app/ActionBar$NavigationMode.class
+com/google/gson/annotations/Since.class

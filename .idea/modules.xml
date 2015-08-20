@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" filepath="$PROJECT_DIR$/appcompat_v7/appcompat_v7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaapk.com-AndBase/javaapk.com-AndBase.iml" filepath="$PROJECT_DIR$/javaapk.com-AndBase/javaapk.com-AndBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rlct.iml" filepath="$PROJECT_DIR$/rlct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rlct/rlct-rlct.iml" filepath="$PROJECT_DIR$/rlct/rlct-rlct.iml" />
+    </modules>
+  </component>
+</project>

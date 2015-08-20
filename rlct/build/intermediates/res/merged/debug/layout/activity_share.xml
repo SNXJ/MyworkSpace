@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/rl_title_share"
+        android:layout_width="fill_parent"
+        android:background="@color/title_blue"
+        android:layout_height="@dimen/base50dp" >
+
+        <ImageButton
+            android:id="@+id/ib_share_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base15dp"
+            android:background="@drawable/left_return" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/tv_share_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/share"
+             />
+    </RelativeLayout>
+<RelativeLayout 
+     android:layout_below="@+id/rl_title_share"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_share"
+    >
+    <ImageButton
+        android:id="@+id/ib_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/base220dp"
+        android:background="@drawable/bt_share" />
+
+    <TextView
+        android:id="@+id/tv_share_invitation_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base180dp"
+        android:layout_marginLeft="@dimen/base150dp"
+        android:text="189****6789"
+        android:textColor="@color/red" />
+    
+</RelativeLayout>
+    
+
+</RelativeLayout><!-- From: file:/E:/ronglian/rlct/rlct/res/layout/activity_share.xml -->

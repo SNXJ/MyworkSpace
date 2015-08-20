@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title_regist"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/base50dp"
+        android:background="@color/title_blue" >
+
+        <ImageButton
+            android:id="@+id/ib_regist_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base15dp"
+            android:background="@drawable/left_return" />
+
+        <TextView
+            android:id="@+id/tv_regist_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/regist"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/base40dp"
+        android:paddingRight="@dimen/base40dp"
+        android:paddingTop="@dimen/base40dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_name_regist"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/iphone"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/et_phone_regist"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@+id/ic_phone"
+                android:background="@android:color/white"
+                android:hint="@string/phone_number"
+                android:maxLength="11"
+                android:inputType="number"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_validation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_validation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/validation"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/et_validation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_validation"
+                android:background="@android:color/white"
+                android:hint="@string/validation"
+                android:inputType="number"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_validation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:padding="@dimen/base5dp"
+                android:scaleType="fitXY"
+                android:text="获取验证码" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_regist_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_regist_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/password"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/et_regist_password"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:inputType="textPassword"
+                android:layout_toRightOf="@id/ic_regist_password"
+                android:background="@android:color/white"
+                android:hint="@string/regist_password"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/ib_password_eyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/base8dp"
+                android:background="@drawable/password_eyes" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_regist_again_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_regist_again_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/password"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/et_regist_again_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_regist_again_password"
+                android:background="@android:color/white"
+                android:hint="@string/regist_again_password"
+                android:inputType="textPassword"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/base20dp"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/cb_arrge_deal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <TextView
+                android:id="@+id/tv_arrge_deal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="我已同意《贷款协议》" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ib_regist_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/base40dp"
+            android:background="@drawable/regist_button" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/ronglian/rlct/rlct/res/layout/activity_regist.xml -->

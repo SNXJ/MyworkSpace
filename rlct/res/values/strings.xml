@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">融联创投</string>
+    <string name="drawer_open">menu open</string>
+    <string name="drawer_close">menu close</string>
+    <string name="repayment_history">还款记录</string>
+    <string name="loan">贷款</string>
+    <string name="repayment">还款</string>
+    <string name="xiangqing">详情</string>
+    <string name="share">分享</string>
+    <string name="setting">设置</string>
+    <string name="account_info">账户信息</string>
+    <string name="regist">注册</string>
+    <string name="login">登录</string>
+    <string name="bind_bank">绑定银行卡</string>
+    <string name="bank_card">银行卡号</string>
+    <string name="bank_name">开户行名称</string>
+    <string name="bank_city">开户行所在城市</string>
+    <string name="mybank">我的银行卡</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_my_data">我的资料</string>
+    <string name="loan_name">贷款人姓名</string>
+    <string name="loan_type">贷款类型</string>
+    <string name="loan_cycle">贷款周期</string>
+    <string name="loan_money">贷款金额</string>
+    <string name="work_unit">工作单位</string>
+    <string name="city_address">所在城市</string>
+    <string name="email">邮箱</string> 
+    <string name="regist_password">密码，至少6位</string> 
+    <string name="regist_again_password">请再次输入密码</string> 
+    <string name="name">姓名</string> 
+    <string name="id_card">身份证号</string>
+    <string name="validation">验证码</string>
+    <string name="phone_number">手机号码</string>
+    <string name="menu_account_security">账户安全</string>
+    <string name="menu_deal_record">交易记录</string>
+    <string name="menu_message_center">消息中心</string>
+    <string name="repayment_remind_message">一次结清全部贷款，免除后续利息费\n选择部分金额还款，按还款计划计息</string>
+    <string name="mybank_card">为了您的资金安全，只能绑定一张银行卡，如果需要\n更换银行卡，请致电客服400-600-8888</string>
+    
+
+</resources>

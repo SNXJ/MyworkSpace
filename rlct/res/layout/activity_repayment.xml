@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_repayment_title"
+        android:layout_width="fill_parent"
+        android:background="@color/title_blue"
+        android:layout_height="@dimen/base50dp" >
+
+        <ImageButton
+            android:id="@+id/ib_repayment_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base15dp"
+            
+            android:background="@drawable/left_return" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/tv_repayment_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="还款"
+             />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/tv_repayment_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base15dp"
+            android:text="详情"
+             />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base85dp"
+        android:layout_gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/base85dp"
+            android:layout_marginLeft="@dimen/base15dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_benxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/base25dp"
+                android:text="本期应还"
+                android:textColor="@color/text_xiao"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_benxi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_benxi"
+                android:text="2,000"
+                android:textColor="@color/text_red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/tv_benxi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_benxi"
+                android:layout_marginTop="@dimen/base4dp"
+                android:layout_toRightOf="@+id/tv_benxi1"
+                android:text=".00元"
+                android:textColor="@color/text_red"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="@dimen/base1dp"
+                android:layout_height="@dimen/base40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/base23dp"
+                android:background="@color/text_xiao" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/base85dp"
+            android:layout_marginLeft="@dimen/base25dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_all_repay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/base25dp"
+                android:text="全部应还"
+                android:textColor="@color/text_xiao"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_all_repay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_all_repay"
+                android:text="200"
+                android:textColor="@color/text_red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/tv_all_repay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_all_repay"
+                android:layout_marginTop="@dimen/base4dp"
+                android:layout_toRightOf="@+id/tv_all_repay1"
+                android:text="万"
+                android:textColor="@color/text_red"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="@dimen/base1dp"
+                android:layout_height="@dimen/base40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="@dimen/base23dp"
+                android:background="@color/text_xiao" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/base85dp"
+            android:layout_marginLeft="@dimen/base25dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_none_repay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/base25dp"
+                android:text="未归还罚息"
+                android:textColor="@color/text_xiao"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tv_none_repay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_none_repay"
+                android:text="0"
+                android:textColor="@color/text_red"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/tv_none_repay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_none_repay"
+                android:layout_marginTop="@dimen/base4dp"
+                android:layout_toRightOf="@+id/tv_none_repay1"
+                android:text=".00元"
+                android:textColor="@color/text_red"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base1dp"
+        android:background="@color/text_xiao" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base45dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/base15dp"
+        android:text="还款金额（元）"
+        android:textColor="@color/text_zhong"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base1dp"
+        android:background="@color/text_xiao" />
+
+    <RelativeLayout
+        android:id="@+id/ll_benxi_repay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base50dp"
+        android:background="#ffffff"
+        android:paddingLeft="@dimen/base40dp" >
+
+        <TextView
+            android:id="@+id/tv_benxi_repay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="¥0.00"
+            android:textColor="@color/text_da"
+            android:textSize="20sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base10dp"
+            android:layout_toRightOf="@+id/tv_benxi_repay"
+            android:text="本期应还"
+            android:textColor="@color/text_xiao"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base15dp"
+            android:background="@drawable/arrow" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base1dp"
+        android:background="@color/text_xiao" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base50dp"
+        android:paddingLeft="@dimen/base15dp" >
+
+        <TextView
+            android:id="@+id/tv_xuanze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="选择银行卡"
+            android:textColor="@color/text_zhong"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base10dp"
+            android:layout_toRightOf="@+id/tv_xuanze"
+            android:text="(必选)"
+            android:textColor="@color/red"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base1dp"
+        android:background="@color/text_xiao" />
+
+    <RelativeLayout
+        android:id="@+id/rl_choose_bind_bank"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base50dp"
+        android:background="#ffffff"
+        android:paddingLeft="@dimen/base15dp" >
+
+        <TextView
+            android:id="@+id/tv_choose_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="点击选择银行卡"
+            android:textColor="@color/text_xiao"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base15dp"
+            android:background="@drawable/arrow" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base1dp"
+        android:background="@color/text_xiao" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base75dp"
+        android:gravity="center"
+        android:text="@string/repayment_remind_message"
+        android:textColor="@color/red"
+        android:textSize="11sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/repayment_determine" />
+    </LinearLayout>
+
+</LinearLayout>

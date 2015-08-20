@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:2:1-51:12
+	xmlns:android
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:2:11-69
+	package
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:3:5-29
+	android:versionName
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:4:5-28
+		INJECTED from E:\ronglian\rlct\rlct\AndroidManifest.xml
+		INJECTED from E:\ronglian\rlct\rlct\AndroidManifest.xml
+uses-sdk
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:5:5-7:41
+MERGED from [rlct:appcompat_v7:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\appcompat_v7\unspecified\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:11:5-69
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:11:22-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:13:5-81
+MERGED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:13:22-78
+application
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:15:5-49:19
+MERGED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:14:5-15:19
+MERGED from [rlct:appcompat_v7:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\appcompat_v7\unspecified\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:17:9-45
+	android:theme
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:19:9-40
+activity#com.ucgcn.rlct.ui.mian.MainActivitys
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:20:9-28:20
+	android:label
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:21:13-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:26:27-74
+activity#com.ucgcn.rlct.ui.activitys.RepaymentHistoryActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:29:9-30:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:29:19-86
+activity#com.ucgcn.rlct.ui.activitys.LoanActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:31:9-32:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:31:19-74
+activity#com.ucgcn.rlct.ui.activitys.ShareActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:33:9-34:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:33:19-75
+activity#com.ucgcn.rlct.ui.activitys.RepaymentActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:35:9-36:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:35:19-79
+activity#com.ucgcn.rlct.ui.activitys.AccountInfoActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:37:9-38:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:37:19-81
+activity#com.ucgcn.rlct.ui.activitys.BindBankActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:39:9-40:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:39:19-78
+activity#com.ucgcn.rlct.ui.activitys.MyBankCardActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:41:9-42:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:41:19-80
+activity#com.ucgcn.rlct.ui.activitys.SettingActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:43:9-44:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:43:19-77
+activity#com.ucgcn.rlct.ui.activitys.LoginActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:45:9-46:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:45:19-75
+activity#com.ucgcn.rlct.ui.activitys.RegistActivity
+ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:47:9-48:20
+	android:name
+		ADDED from E:\ronglian\rlct\rlct\AndroidManifest.xml:47:19-76
+uses-permission#android.permission.INTERNET
+ADDED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from [rlct:javaapk.com-AndBase:unspecified] E:\ronglian\rlct\rlct\build\intermediates\exploded-aar\rlct\javaapk.com-AndBase\unspecified\AndroidManifest.xml:12:22-71

@@ -1,0 +1,70 @@
+-injars 'E:\ronglian\rlct\rlct\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'E:\ronglian\rlct\rlct\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'E:\AS2014\sdk14\build-tools\22.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'E:\ronglian\rlct\rlct\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.ucgcn.rlct.ui.mian.MainActivitys {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.RepaymentHistoryActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.LoanActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.ShareActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.RepaymentActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.AccountInfoActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.BindBankActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.MyBankCardActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.SettingActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.LoginActivity {
+    <init>();
+}
+
+-keep class com.ucgcn.rlct.ui.activitys.RegistActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="D:/WorkSpace/ucgcn/andBase.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/javaapk.com-AndBase/d.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=javaapk.com-AndBase/src"/>
+        <javaElement handleIdentifier="=javaapk.com-AndBase/gen"/>
+        <file path="/javaapk.com-AndBase/.project"/>
+        <file path="/javaapk.com-AndBase/Doxyfile"/>
+        <file path="/javaapk.com-AndBase/LICENSE-2.0.txt"/>
+        <folder path="/javaapk.com-AndBase/assets"/>
+        <file path="/javaapk.com-AndBase/.classpath"/>
+        <file path="/javaapk.com-AndBase/proguard-project.txt"/>
+        <file path="/javaapk.com-AndBase/AndroidManifest.xml"/>
+        <file path="/javaapk.com-AndBase/说明.htm"/>
+        <folder path="/javaapk.com-AndBase/res"/>
+        <folder path="/javaapk.com-AndBase/bin"/>
+        <file path="/javaapk.com-AndBase/project.properties"/>
+        <folder path="/javaapk.com-AndBase/libs"/>
+        <file path="/javaapk.com-AndBase/build.gradle"/>
+    </selectedElements>
+</jardesc>

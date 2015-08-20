@@ -1,0 +1,221 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      <RelativeLayout
+        android:id="@+id/rl_title_account"
+        android:layout_width="fill_parent"
+        android:background="@color/title_blue"
+        android:layout_height="@dimen/base50dp" >
+
+        <ImageButton
+            android:id="@+id/ib_account_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/base15dp"
+            android:background="@drawable/left_return" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:id="@+id/tv_account_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/account_info"
+             />
+    </RelativeLayout>
+    
+    
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/base40dp"
+        android:paddingRight="@dimen/base40dp"
+        android:paddingTop="@dimen/base40dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_name_account"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/name"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/et_name_account"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@+id/ic_name"
+                android:background="@android:color/white"
+                android:hint="@string/name"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+ 	<RelativeLayout
+            android:id="@+id/rl_id_card_account"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_id_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/id_card"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/et_id_card_account"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_id_card"
+               android:background="@android:color/white"
+                android:hint="@string/id_card"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+        <RelativeLayout
+            android:id="@+id/rl_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/email"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_email"
+               android:background="@android:color/white"
+                android:hint="@string/email"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+       
+
+        <RelativeLayout
+            android:id="@+id/rl_city_address"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_city_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/city_address"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/et_city_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_city_address"
+               android:background="@android:color/white"
+                android:hint="@string/city_address"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/arrow"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/rl_work_unit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base50dp"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/ic_work_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/work_unit"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/et_work_unit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/base15dp"
+                android:layout_toRightOf="@id/ic_work_unit"
+               android:background="@android:color/white"
+                android:hint="@string/work_unit"
+                android:textColor="#999999"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base1dp"
+            android:background="#cccccc" />
+
+        <ImageButton
+            android:layout_marginTop="@dimen/base50dp"
+            android:id="@+id/ib_save_account_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/save_message" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/ronglian/rlct/rlct/res/layout/account_info.xml -->
